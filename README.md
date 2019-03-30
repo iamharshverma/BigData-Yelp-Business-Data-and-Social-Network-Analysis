@@ -64,15 +64,24 @@ this review with others by the same user. Use business_id to associate this revi
 of the same business.
 
 review.csv file contains the following columns "review_id"::"user_id"::"business_id"::"stars"
+
 'review_id': (a unique identifier for the review)
+
 'user_id': (the identifier of the reviewed business),
+
 'business_id': (the identifier of the authoring user),
+
 'stars': (star rating, integer 1-5),the rating given by the user to a business
+
 user.csv file contains aggregate information about a single user across all of Yelp
+
 user.csv file contains the following columns "user_id"::"name"::"url"
+
 user_id': (unique user identifier),
+
 'name': (first name, last initial, like 'Matt J.'), this column has been made anonymous to
 preserve privacy
+
 'url': url of the user on yelp
 
 Note: :: is Column separator in the files.
