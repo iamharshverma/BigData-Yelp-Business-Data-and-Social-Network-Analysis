@@ -1,0 +1,3 @@
+./sbt/bin/sbt clean
+./sbt/bin/sbt package
+./sbt/bin/sbt "run"
